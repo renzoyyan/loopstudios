@@ -1,0 +1,34 @@
+.vr{
+    margin: 95px 0;
+
+
+    &__image img{
+        display: block;
+        max-width: 367px;
+        width: 100%;
+        height: auto;
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    &__info{
+        text-align: center;
+        h2{
+            margin-top: 50px;
+            font-weight: 300;
+            font-size: 32px;
+            line-height: 1.1;
+            letter-spacing: 4px;
+            color: #010101;
+        }
+        p{
+            margin-top: 32px;
+            padding: 0 28px;
+            line-height: 1.7;
+            font-size: 1rem;
+            color: #7F7F7F;
+            
+            
+        }
+    }
+}
