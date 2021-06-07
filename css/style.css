@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Josefin+Sans:wght@300&display=swap');
+
 html {
   font-size: 100%;
   box-sizing: border-box;
@@ -9,7 +11,8 @@ html {
 
 body {
   margin: 0;
-  font-family: 'Poppins';
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 300;
 }
 
 h1, h2, h3, p {
@@ -51,6 +54,7 @@ ul {
 .header__logo {
   display: inline-block;
   color: #fff;
+  font-family: 'Alata', sans-serif;
   font-size: 26px;
   font-weight: bold;
   z-index: 999;
